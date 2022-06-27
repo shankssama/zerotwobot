@@ -82,17 +82,17 @@ buttons = [
     [
         InlineKeyboardButton(
             "Support Group",
-            "https://t.me/blackbulls_support",
+            "https://t.me/ShanksSupport",
         ),
         InlineKeyboardButton(
-            "Announcemnets",
-            "https://t.me/blackbull_bots"
+            "Update Channel",
+            "https://t.me/ShanksUpdates"
         ),
     ],
     [
         InlineKeyboardButton(
-            text="Source Code",
-            url="https://github.com/Black-Bulls-Bots/zerotwobot"
+            text="Chat Group",
+            url="https://t.me/Otaku_University"
         )
     ]
 ]
@@ -102,7 +102,7 @@ buttons = [
 
 HELP_STRINGS = """
 Hey there!.
-My Name is {}, from Darling in The FranXX. Take me as your group's darling to have fun with me. \
+My Name is {}, from One Piece. Take me as your group's darling to have fun with me. \
 I can help you with the following commands.
 
 *Main* commands available:
@@ -120,12 +120,12 @@ And the following:
     "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n",
 )
 
-ZEROTWO_IMG = "https://telegra.ph/file/5b9bc54b0ae753bb1ec18.jpg"
+ZEROTWO_IMG = "https://te.legra.ph/file/de970c4096d7349234892.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
  You can support the project by contacting @kishoreee \
  Supporting isnt always financial! \
- Those who cannot provide monetary support are welcome to help us develop the bot at @jokers_botsupport."""
+ Those who cannot provide monetary support are welcome to help us develop the bot at @WizardBotHelper"""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -251,11 +251,11 @@ def start(update: Update, context: CallbackContext):
                     [
                         InlineKeyboardButton(
                             text="Support",
-                            url="https://t.me/blackbulls_support",
+                            url="https://t.me/ShanksSupport",
                         ),
                         InlineKeyboardButton(
-                            text=str("Announcement's"),
-                            url="https://t.me/blackbull_bots",
+                            text=str("Update Channel"),
+                            url="https://t.me/ShanksUpdates",
                         ),
                     ],
                 ],
